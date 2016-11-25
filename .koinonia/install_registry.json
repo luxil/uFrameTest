@@ -1,0 +1,25 @@
+[ 
+	{
+		"Name":"master"		, 
+		"CommitSha":"c11af17d38c1f92358c1150c139d454565f66534"		, 
+		"AuthorName":"nitreo"		, 
+		"RepositoryName":"csharp60"		, 
+		"Type":0		, 
+		"AssociatedDate":"11/25/2016 3:28:19 PM"		, 
+		"ConfigData":		{
+			"License":"MIT"			, 
+			"Mappings":			{
+				"Default":"CSharp60SupportAssets"				, 
+				"Root":"CSharp60Support"			}
+			, 
+			"RequiresFullReimport":true			, 
+			"Dependencies":			{
+			}
+		}
+		, 
+		"Mappings":		{
+			"Default":"Assets/Plugins/ManagedPackages\\nitreo/csharp60"			, 
+			"Root":"CSharp60Support"		}
+		, 
+		"InstallFinalized":true	}
+ ]
