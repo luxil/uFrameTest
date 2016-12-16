@@ -1,0 +1,8 @@
+{
+	"Identifier":"bba0b6b6-0fdd-4886-a691-8cba9d76d893"	, 
+	"Time":"12/16/2016 4:37:34 PM"	, 
+	"Group":163734	, 
+	"DataRecordId":"1a1a0389-bcd3-40f0-a8f8-ea0458177962"	, 
+	"Type":2	, 
+	"RecordType":"uFrame.ECS.Editor.HandlerNode, Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"	, 
+	"Data":"{\r\n\t\"CodeHandler\":false\t, \r\n\t\"Custom\":false\t, \r\n\t\"MetaType\":\"0f6d8fd5-53e0-4085-b381-2d01a5bc74f1\"\t, \r\n\t\"VariableCount\":0\t, \r\n\t\"VariableName\":\"HandlerNode17\"\t, \r\n\t\"Name\":\"MenuSystemMenuToggleEvent\"\t, \r\n\t\"Order\":0\t, \r\n\t\"GraphId\":\"64710783-1311-4120-8e27-bdedd91f71a0\"\t, \r\n\t\"Identifier\":\"1a1a0389-bcd3-40f0-a8f8-ea0458177962\"\t, \r\n\t\"Expanded\":false}\r\n"}

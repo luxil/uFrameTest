@@ -23,15 +23,29 @@ static
         
         #region 
 static
-        public uFrame.ECS.APIs.IEcsComponentManagerOf<TestComponentNode> TestComponentNodeManager(this uFrame.ECS.APIs.IEcsSystem system) {
-            return system.ComponentSystem.RegisterComponent<TestComponentNode>();
+        public uFrame.ECS.APIs.IEcsComponentManagerOf<Health> HealthManager(this uFrame.ECS.APIs.IEcsSystem system) {
+            return system.ComponentSystem.RegisterComponent<Health>();
         }
         #endregion
         
         #region 
 static
-        public List<TestComponentNode> TestComponentNodeComponents(this uFrame.ECS.APIs.IEcsSystem system) {
-            return system.ComponentSystem.RegisterComponent<TestComponentNode>().Components;
+        public uFrame.ECS.APIs.IEcsComponentManagerOf<MenuComponent> MenuComponentManager(this uFrame.ECS.APIs.IEcsSystem system) {
+            return system.ComponentSystem.RegisterComponent<MenuComponent>();
+        }
+        #endregion
+        
+        #region 
+static
+        public List<Health> HealthComponents(this uFrame.ECS.APIs.IEcsSystem system) {
+            return system.ComponentSystem.RegisterComponent<Health>().Components;
+        }
+        #endregion
+        
+        #region 
+static
+        public List<MenuComponent> MenuComponentComponents(this uFrame.ECS.APIs.IEcsSystem system) {
+            return system.ComponentSystem.RegisterComponent<MenuComponent>().Components;
         }
         #endregion
     }
